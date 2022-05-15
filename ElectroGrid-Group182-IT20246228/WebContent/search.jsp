@@ -17,22 +17,17 @@
 <h3> Search Customer Details </h3>
 
 	<form action="SearchAPI" method="get">
-	
-	
-	
-		 <br>Customer ID:<br><br>
+		<br>Customer ID:<br><br>
 		<input id="customerID" name="customerID" type="text" class="form-control form-control-sm col-4" >
   
 		<br><br>
 		<input type="submit" value="Search" class="btn btn-success" >
 		
-		
-
 	</form>
 	
 	
 			
-			<br><br>
+	<br><br>
 			
 			
 	</div>
