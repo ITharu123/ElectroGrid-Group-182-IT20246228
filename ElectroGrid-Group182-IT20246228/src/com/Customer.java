@@ -19,6 +19,7 @@ private Connection connect()
  }
 
 	//Read customer
+	
 	public String readCustomers()
 	 {
 	 String output = "";
@@ -76,6 +77,7 @@ private Connection connect()
 	 }
 	
 	//Insert customer
+	
 	 public String insertCustomer(String name, String address, String email, String contact)
 	 {
 	 String output = "";
@@ -115,6 +117,7 @@ private Connection connect()
 
 	
 	//update customer
+	
 	 public String updateCustomer(String ID, String name, String address,String email, String contact)
 	 {
 	 String output = "";
