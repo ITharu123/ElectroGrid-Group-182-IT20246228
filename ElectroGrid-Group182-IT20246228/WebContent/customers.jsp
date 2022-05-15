@@ -1,6 +1,7 @@
 <%@page import="com.Customer"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,11 +11,12 @@ pageEncoding="ISO-8859-1"%>
 <script src="Components/jquery-3.2.1.min.js"></script>
 <script src="Components/customers.js"></script>
 </head>
+	
 <body>
 <div class="container"><div class="row"><div class="col-6">
 <h1>Customer Management </h1>
 <form id="formCustomer" name="formCustomer">
-Customer Name:
+ Customer Name:
  <input id="customerName" name="customerName" type="text"
  class="form-control form-control-sm">
  <br> Customer Address:
@@ -39,6 +41,7 @@ Customer Name:
 <div id="alertSuccess" class="alert alert-success"></div>
 <div id="alertError" class="alert alert-danger"></div>
 <br>
+	
 <div id="divCustomersGrid">
  <%
  Customer customerObj = new Customer();
